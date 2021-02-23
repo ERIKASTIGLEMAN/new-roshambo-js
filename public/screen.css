@@ -14,37 +14,47 @@ body {
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+  padding: 0.5rem 3rem;
+  text-align: center;
+  font-family: fantasy;
+}
+
+h1 {
+  font-size: 80px;
+}
+
 main {
   display: flex;
   justify-content: space-around;
+  background-color: lightyellow;
 }
-header {
-  padding: 1.5rem 3rem;
+
+section p {
+  background-color: red;
+  margin: 20rem 2rem;
+  width: 10rem;
   text-align: center;
+  padding-top: 4rem;
+  font-size: 40px;
+  height: 5rem;
+}
+#winner {
+  display: flex;
+  width: 200px;
+  height: 200px;
 }
 
 .playerOne {
+  display: flex;
 }
 
-#playerOneR img {
-  width: 200px;
-  height: 200px;
-}
-#playerOneP img {
-  width: 200px;
-  height: 200px;
+.playerTwo {
+  display: flex;
+  align-content: center;
 }
 
 #playerOneS img {
-  width: 200px;
-  height: 200px;
-}
-
-#playerTwoR img {
-  width: 200px;
-  height: 200px;
-}
-#playerTwoP img {
   width: 200px;
   height: 200px;
 }
