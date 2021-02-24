@@ -63,3 +63,19 @@ section p {
   width: 200px;
   height: 200px;
 }
+
+.choice-made button {
+  display: none;
+}
+.playerOne .choice {
+  display: none;
+}
+.playerOne.choice-made .choice {
+  display: flex;
+}
+
+footer {
+  margin: 5rem;
+  text-align: center;
+  font-size: 16px;
+}
