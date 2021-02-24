@@ -27,11 +27,11 @@ h1 {
 main {
   display: flex;
   justify-content: space-around;
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
 }
 
 section p {
-  background-color: red;
+  /* background-color: red; */
   margin: 20rem 2rem;
   width: 10rem;
   text-align: center;
