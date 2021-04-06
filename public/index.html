@@ -6,6 +6,7 @@
     <title>New Roshambo Js</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hdt1zbr.css" />
   </head>
   <body>
     <header>
@@ -13,45 +14,44 @@
     </header>
 
     <main>
-      <section class="playerOne">
-        <p>Player 1</p>
-        <section>
-          <div id="playerOneS">
-            <img src="pictures/scissors.png" />
+      <h3>Player 1</h3>
+      <section>
+        <div id="playerOneS">
+          <img src="Pictures/Scissors.gif" alt="scissors" />
+        </div>
+
+        <span>
+          <div id="playerOneP">
+            <img src="Pictures/Paper.gif" alt="paper" />
           </div>
           <div id="playerOneR">
-            <img src="pictures/rock.png" />
+            <img src="Pictures/RockRolling.gif" alt="Rolling Rock" />
           </div>
-          <div id="playerOneP">
-            <img src="pictures/Paper.png" />
-          </div>
-          <p class="choice"></p>
-        </section>
+        </span>
+        <p class="choice"></p>
       </section>
+
+      <h2>Results</h2>
+      <hr />
 
       <section>
-        <p class="results-display">Results</p>
-        <button onClick="(location.reload())">New Game</button>
-      </section>
-
-      <section class="playerTwo">
-        <section>
-          <div id="playerTwoS">
-            <img src="pictures/scissors.png" />
+        <div id="playerTwoS">
+          <img src="Pictures/Scissors.gif" alt="scissors" />
+        </div>
+        <span>
+          <div id="playerTwoP">
+            <img src="Pictures/Paper.gif" />
           </div>
           <div id="playerTwoR">
-            <img src="pictures/rock.png" />
+            <img src="Pictures/RockRolling.gif" alt="Rolling Rock" />
           </div>
-          <div id="playerTwoP">
-            <img src="pictures/Paper.png" />
-          </div>
-        </section>
-        <p>Player 2</p>
+        </span>
       </section>
+      <h3>Player 2</h3>
     </main>
 
     <footer>
-      <!-- <p class="results-display">Results</p> -->
+      <button onClick="(location.reload())">New Game</button>
     </footer>
     <script src="/main.js" charset="utf-8"></script>
   </body>
