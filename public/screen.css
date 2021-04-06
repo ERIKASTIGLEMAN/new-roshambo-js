@@ -3,83 +3,20 @@
 }
 
 html {
-  height: 100%;
+  height: auto;
+  width: 100%;
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
   font: 16px/ 1 san-serif;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-header {
-  padding: 0.5rem 3rem;
   text-align: center;
-  font-family: fantasy;
 }
 
-h1 {
-  font-size: 80px;
-}
-
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-section p {
-  margin: 20rem 2rem;
-  width: 10rem;
-  text-align: center;
-  padding-top: 4rem;
-  font-size: 65px;
-  height: 5rem;
-}
-
-section button {
-  font-size: 45px;
-  margin-left: 3rem;
-}
-
-.playerOne {
-  display: flex;
-}
-
-.playerTwo {
-  display: flex;
-  align-content: center;
-}
-
-#playerOneS img {
-  width: 500px;
-  height: 500px;
-}
-
-#playerTwoS img {
-  width: 500px;
-  height: 500px;
-}
-
-.choice-made button {
-  display: none;
-}
-.playerOne .choice {
-  display: none;
-}
-.playerOne.choice-made .choice {
-  display: flex;
-}
-
-#winner {
-  display: flex;
-  width: 200px;
-  height: 200px;
-}
-
-footer {
-  margin: 0 5rem;
-  text-align: center;
-  font-size: 60px;
+img {
+  width: 100%;
+  max-width: 25%;
+  height: auto;
+  max-height: 25%;
 }
