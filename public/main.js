@@ -99,5 +99,4 @@ const main = () => {
 
 console.log(winner(player1choice, player2choice))
 
-// location.reload()
 document.addEventListener('DOMContentLoaded', main)
