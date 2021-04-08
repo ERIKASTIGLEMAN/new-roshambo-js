@@ -10,20 +10,33 @@ html {
 body {
   font: 16px/ 1 san-serif;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: auto; */
+  /* width: 100%; */
 }
 
 img {
-  border: 5px solid purple;
+  border: 5px solid rgb(117, 3, 3);
+  border-radius: 20px;
+  box-shadow: 0px 2px 3px #f1f107;
   width: 100px;
   height: 100px;
   object-fit: fill;
 }
 
+h1 {
+  font-family: 'Sofia', sans-serif;
+  font-size: 50px;
+  height: 0.5rem;
+}
+
 h2 {
-  padding: 2rem;
+  padding: 1rem;
 }
 h3 {
-  padding: 1rem;
+  padding: 0.5rem;
+  font-size: 30px;
 }
 
 main {
@@ -48,11 +61,11 @@ button {
   font-weight: 600;
 
   border: 1px solid #012880;
-  background-image: linear-gradient(-180deg, #ff89d6 0%, #c01f9e 100%);
-  box-shadow: 0 1rem 1.25rem 0 rgba(22, 75, 195, 0.5),
-    0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+  background-image: linear-gradient(-180deg, #ee1a1d 0%, #e4700a 100%);
+  box-shadow: 0 1rem 1.25rem 0 rgba(226, 237, 10, 0.858),
+    0 -0.25rem 1.5rem rgb(240, 127, 6) inset,
     0 0.75rem 0.5rem rgba(255, 255, 255, 0.4) inset,
-    0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+    0 0.25rem 0.5rem 0 rgb(216, 18, 18) inset;
 }
 footer {
   padding-top: 2rem;
@@ -68,6 +81,6 @@ footer {
 .playerOne.choice-made .choice {
   display: flex;
 }
-#winner {
+/* #winner {
   display: flex;
-}
+} */
